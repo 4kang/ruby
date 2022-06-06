@@ -15,7 +15,7 @@ class Car
 end
 
 
-car = Car.new 
+car = Car.new
 car.move("右",5)
 #↑レシーバ＝self
 
