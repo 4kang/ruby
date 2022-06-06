@@ -21,9 +21,13 @@ car.move("右",5)
 
 # クラスメゾット
 class Car
+ def self.turn(direction)
+  puts "#{direction}に曲がります"
+ end
  def self.run(distance)
   puts "車で#{distance}キロ走ります。"
  end
 end
 
+Car.turn("右")
 Car.run(10)
